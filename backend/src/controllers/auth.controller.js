@@ -1,6 +1,6 @@
 import rediClient from "../config/redis.js";
 import User from "../models/user.model.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import validateUserInput from "../utils/validator.js";
 
